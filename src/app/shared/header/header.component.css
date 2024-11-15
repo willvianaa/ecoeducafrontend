@@ -1,0 +1,27 @@
+/* Define uma altura fixa para o toolbar */
+mat-toolbar {
+    background-color: #A2D200; /* Cor de fundo verde */
+    color: #FFFFFF; /* Cor do texto branca */
+    font-size: 20px; /* Tamanho da fonte */
+    font-weight: bold; /* Texto em negrito */
+    padding: 0 16px; /* Espaçamento interno */
+    height: 64px; /* Altura padrão para o toolbar */
+    display: flex;
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  }
+  
+  /* Estiliza o texto dentro do toolbar */
+  mat-toolbar span {
+    flex-grow: 1; /* Faz o texto ocupar o espaço disponível */
+    text-align: left; /* Alinha o texto à esquerda */
+  }
+  
+  /* Adicione estilos extras para dispositivos móveis */
+  @media (max-width: 600px) {
+    mat-toolbar {
+      font-size: 16px; /* Reduz o tamanho da fonte */
+      height: 56px; /* Reduz a altura do toolbar */
+    }
+  }
+  
