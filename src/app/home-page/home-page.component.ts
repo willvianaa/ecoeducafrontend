@@ -7,4 +7,24 @@ import { Component } from '@angular/core';
 })
 export class HomePageComponent {
 
-}
+  // Propriedade que armazena os dados das seções
+  sections = [
+    {
+      title: 'Reciclagem de lixo',
+      // icon:'https://www.flaticon.com/free-icons/recycle-bin'
+    },
+    {
+      title: 'Histórias ecológicas',
+      // icon: 'https://img.icons8.com/fluency/48/000000/book.png',
+    },
+    {
+      title: 'Mapa de Coleta',
+      // icon: 'https://img.icons8.com/fluency/48/000000/garbage-truck.png',
+    },
+    {
+      title: 'Desafios da Reciclagem',
+      // icon: 'https://img.icons8.com/fluency/48/000000/garbage-truck.png',
+    },
+  ];
+
+  }
