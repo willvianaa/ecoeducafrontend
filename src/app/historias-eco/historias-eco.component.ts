@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-historias-eco',
@@ -6,5 +7,14 @@ import { Component } from '@angular/core';
   styleUrl: './historias-eco.component.css'
 })
 export class HistoriasEcoComponent {
+  constructor(private router: Router) {}
 
+  voltar() {
+    this.router.navigate(['/home']); // Navega para a página inicial
+  }
+
+  lerHistoria() {
+    this.router.navigate(['/joaoealixeira']); // Exemplo de rota para leitura
+  }
 }
+

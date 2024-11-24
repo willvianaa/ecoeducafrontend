@@ -13,6 +13,13 @@ import { HistoriasEcoComponent } from './historias-eco/historias-eco.component';
 import { MapaEcoComponent } from './mapa-eco/mapa-eco.component';
 import { ReciclagemEcoComponent } from './reciclagem-eco/reciclagem-eco.component';
 import { DesafiosEcoComponent } from './desafios-eco/desafios-eco.component';
+import { JoaoealixeiraHistoriaComponent } from './historias-eco/joaoealixeira-historia/joaoealixeira-historia.component';
+import { ClubedosrecicladoresComponent } from './historias-eco/clubedosrecicladores/clubedosrecicladores.component';
+import { MariaeaarvoreComponent } from './historias-eco/mariaeaarvore/mariaeaarvore.component';
+import { PedroeomarComponent } from './historias-eco/pedroeomar/pedroeomar.component';
+import { AnaeosdesafiosComponent } from './historias-eco/anaeosdesafios/anaeosdesafios.component';
+import { LucaseaenergiaComponent } from './historias-eco/lucaseaenergia/lucaseaenergia.component';
+import { PontuacaoComponent } from './pontuacao/pontuacao.component';
 
 
 
@@ -27,6 +34,13 @@ import { DesafiosEcoComponent } from './desafios-eco/desafios-eco.component';
     MapaEcoComponent,
     ReciclagemEcoComponent,
     DesafiosEcoComponent,
+    JoaoealixeiraHistoriaComponent,
+    ClubedosrecicladoresComponent,
+    MariaeaarvoreComponent,
+    PedroeomarComponent,
+    AnaeosdesafiosComponent,
+    LucaseaenergiaComponent,
+    PontuacaoComponent,
    
     
     

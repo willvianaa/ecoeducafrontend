@@ -1,0 +1,27 @@
+<div class="pontuacao-container">
+    <h1 class="titulo">PONTUAÇÃO</h1>
+    <div class="top-player">
+      <div class="medalha">
+        <img src="https://img.icons8.com/?size=100&id=17912&format=png&color=000000" alt="Medalha Ouro" />
+      </div>
+      <div class="top-info">
+        <p class="player-nome">Cristiano Ronaldo</p>
+        <p class="player-pontuacao">42,000</p>
+      </div>
+    </div>
+  
+    <div class="lista-jogadores">
+      <div class="jogador" *ngFor="let usuario of usuariosPontuacao; let i = index">
+        <div class="posicao">{{ i + 2 }}</div>
+        <div class="avatar">
+          <img src="https://img.icons8.com/?size=100&id=qqdnFr5qnUPb&format=png&color=000000" alt="Avatar" />
+        </div>
+        <div class="info-jogador">
+          <p class="nome">{{ usuario.nome }}</p>
+          <p class="pontuacao">{{ usuario.pontuacao | number }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
